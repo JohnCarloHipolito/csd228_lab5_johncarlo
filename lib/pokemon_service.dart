@@ -43,7 +43,7 @@ class PokemonCard {
       id: json['id'],
       name: json['name'],
       hp: json['hp'],
-      imageUrl: json['images']['large'],
+      imageUrl: json['images']['small'],
     );
   }
 }
